@@ -1,0 +1,46 @@
+POST  http://localhost:3000/login
+{
+    "username":"ofer",
+    "password":"123456789"
+}
+###
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "username": "nadeem",
+    "password": "12345678",
+    "email":"nadeem-bokaae@gmail.com",
+    "firstname":"nadeem",
+    "lastname":"bokaae"
+}
+###
+POST http://localhost:3000/update
+Content-Type: application/json
+
+{
+    "id":"5f8f52fec8a06d27e83891c3",
+    "username": "",
+    "password": "12345678",
+    "email":"",
+    "firstname":"",
+    "lastname":""
+}
+###
+POST  http://localhost:3000/login
+{
+    "username":"nadeem",
+    "password":"12345678"
+}
+###
+POST  http://localhost:3000/saveUrl
+{
+    "id":"5f91e47af574050a6c035e83",
+	"imageUrl":"https://pixabay.com/get/55e0d4444850a514f1dc846096293278133fdeec574c704f752c78d4934dc75c_640.jpg"
+}
+###
+GET http://localhost:3000/images
+{
+    "id":"5f91e47af574050a6c035e83"
+}
+

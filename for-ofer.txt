@@ -1,0 +1,14 @@
+npx create-rect-app  projName
+
+npm init -y  // to get package json file
+
+mkdir backend
+
+npm install express cors mongoose dotenv
+express -lightweight and fast framework for node.js
+cors - share resources
+mongoose - for mongoDb
+dotenv-for variables
+
+npm install -g nodemon // restart node applicationwhen file changes 
+
